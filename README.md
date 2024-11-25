@@ -39,3 +39,6 @@ Bir **prefabrik ev firması** senaryosunu ele alalım:
 Decorator tasarım deseni kullanarak:
 - Her müşteri için temel ev planı üzerinden özelleştirme yapılabilir.
 - Eklenen her oda, kapı ve pencere, farklı `Concrete Decorator` sınıflarıyla temsil edilebilir.
+
+Bu belirlenen çözümün uygulanmış kodları yukarıda bulunduğu gibidir.
+
