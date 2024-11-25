@@ -6,5 +6,5 @@ Decorator tasarım deseni başlıca şu yapılardan oluşur:
 •	Concrete Component (Somut Bileşen): Geliştirmek veya değiştirmek istediğimiz nesnedir. Temel işlevselliği sağlayarak Component arayüzünü uygular.
 •	Decorator (Dekoratör): Component arayüzünü uygular. Bir bileşen nesnesine bir referans içerir ve çağrıları altta yatan bileşene devrederek yeni davranışlar ekleyebilir veya mevcut davranışları değiştirebilir. 
 •	Concrete Decorator (Somut Dekoratör): Decorator temel genişletir. Her Concrete Decorator, nesneye belirli bir işlevsellik veya davranış ekler. 
-##Decorator Tasarım Deseni Örnek Uygulama
+#Decorator Tasarım Deseni Örnek Uygulama
 Bu desene örnek olarak bir prefabrik ev firmasını ele alalım. Temel 1 odalı ev fiyatları olsun almak istenen her oda için fiyat artmalı aynı zamanda o odaya eklenecek kapı ve pencere için de fiyat artmalıdır. Decorator tasarım deseni kullanarak yapacağım uygulamanın amacı müşterinin istekleri sonucunda oluşan ev bilgisini ve fiyatı dinamik olarak hesaplamak ve farklı müşteriler için temel ev planı üzerinden özelleştirme yapabilmek. 
